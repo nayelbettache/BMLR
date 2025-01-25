@@ -8,9 +8,3 @@ This repository contains the implementation of algorithms and experiments from o
 - **Sparse Recovery**: Exact support recovery for sparse parameters with high probability.
 - **Numerical Simulations**: Frobenius, operator, and max-norm evaluations with synthetic data.
 - **Real-World Applications**: Denoising experiments on CIFAR-10 dataset with noisy transformations.
-
-## Repository Structure
-- `synthetic/`: Code for generating synthetic datasets and evaluating estimators.
-- `real_data/`: Scripts for CIFAR-10 experiments and test set validation.
-- `theory_validation/`: Validation of theoretical results and error bounds.
-- `visualizations/`: Scripts to generate publication-quality plots.

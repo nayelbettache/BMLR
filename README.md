@@ -25,15 +25,13 @@ This repository provides implementations and experiments for **Bivariate Matrix-
 ## Model Overview
 
 The BMLR model assumes:  
-\[
-Y_t = A^* X_t B^* + E_t \quad \text{for } t = 1, \ldots, T
-\]
+$$Y_t = A^* X_t B^* + E_t \quad \text{for } t = 1, \ldots, T$$
 where:
-- \( Y_t \in \mathbb{R}^{n \times p} \): Response matrices
-- \( X_t \in \mathbb{R}^{m \times q} \): Predictor matrices
-- \( A^* \in \mathbb{R}_+^{n \times m} \): Row-normalized parameter matrix
-- \( B^* \in \mathbb{R}^{q \times p} \): Unconstrained parameter matrix
-- \( E_t \): Independent matrix Gaussian noise
+- $Y_t \in \mathbb{R}^{n \times p}$: Response matrices
+- $X_t \in \mathbb{R}^{m \times q}$: Predictor matrices
+- $A^* \in \mathbb{R}_+^{n \times m}$: Row-normalized parameter matrix
+- $B^* \in \mathbb{R}^{q \times p}$: Unconstrained parameter matrix
+- $E_t$: Independent matrix Gaussian noise
 
 ## Contributing
 
@@ -46,7 +44,7 @@ where:
 ```bibtex
 @article{bettache2024bmlr,
   title   = {Bivariate Matrix-Valued Linear Regression (BMLR): Finite-sample performance under Identifiability and Sparsity Assumptions},
-  author  = {Bettache, Nayel and collaborators},
+  author  = {Bettache, Nayel},
   journal = {arXiv preprint arXiv:2412.17749},
   year    = {2024}
 }

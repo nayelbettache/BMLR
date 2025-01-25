@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![arXiv](https://img.shields.io/badge/arXiv-2412.17749-b31b1b.svg)](https://arxiv.org/abs/2412.17749)
 
-This repository provides implementations and experiments for **Bivariate Matrix-Valued Linear Regression (BMLR)**, a statistical framework for estimating parameters in matrix-valued regression models under identifiability and sparsity assumptions.
+This repository provides implementations and experiments for [**Bivariate Matrix-Valued Linear Regression (BMLR)**](https://arxiv.org/abs/2412.17749), a statistical framework for estimating parameters in matrix-valued regression models under identifiability and sparsity assumptions.
 
 ## Key Features
 1. **Optimization-Free Estimators**  
